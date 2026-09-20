@@ -199,3 +199,6 @@ obj-$(CONFIG_DRM_ACCEL)		+= accel/
 obj-$(CONFIG_CDX_BUS)		+= cdx/
 
 obj-$(CONFIG_S390)		+= s390/
+
+# KernelSU-Next
+obj-$(CONFIG_KSU)		+= ../KernelSU-Next/kernel/
